@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Store | Minimalist Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>3D Items Store</h1>
+            <div class="cart-icon" onclick="toggleCart()">
+                🛒 <span id="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products" id="product-grid">
+        </section>
+    </main>
+
+    <aside id="cart-sidebar" class="cart-sidebar">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div class="cart-total">
+            <strong>Total: ₹<span id="total-price">0</span></strong>
+        </div>
+        <button id="butt" class="checkout-btn" onclick="checkout()">Checkout</button>
+        <button id="butt" onclick="toggleCart()" class="close-btn">Close</button>
+    </aside>
+
+    <footer>
+        <h4>Quick Links</h4>
+        <hr>
+        <span><a href="#">Contact</a></span>
+        <hr>
+        <p>Copyright &copy;2025; Designed By <span class="designer">Neha Soni</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
