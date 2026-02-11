@@ -17,12 +17,12 @@ const products = [
     { 
         id: 4, name: "Flower Shape Table Lamp", 
         price: 150, 
-        img: "Lamp2.jpg" 
+        img: "lamp2.jpg" 
     },
     { 
         id: 5, name: "Table Lamp with Stand", 
         price: 150, 
-        img: "Lamp3.jpg" 
+        img: "lamp3.jpg" 
     },
     { 
         id: 6, name: "Table Lamp", 
